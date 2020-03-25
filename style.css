@@ -1,6 +1,7 @@
 body{
     text-align: center;
-
+    background: url(Images/fondo1.jpg);
+    color: whitesmoke;
 }
 .parrafo1{
     color: aqua;
@@ -11,4 +12,7 @@ body{
 .pan{
     margin: auto 35%;
     display: block;
+}
+h3{
+    color: crimson;
 }
