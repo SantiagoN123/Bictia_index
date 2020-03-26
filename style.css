@@ -16,6 +16,7 @@ body{
 h3{
     color: crimson;
 }
-div p span{
-    color: blueviolet;
+div#menu{
+    background-color: #5e1904;
+    width: 90%;
 }
