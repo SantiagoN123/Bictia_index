@@ -16,3 +16,6 @@ body{
 h3{
     color: crimson;
 }
+div p span{
+    color: blueviolet;
+}
