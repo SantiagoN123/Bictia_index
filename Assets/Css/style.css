@@ -38,10 +38,6 @@ div#menu a:link{
 div#menu a:visited{
     color: rgb(253, 229, 125);
 }
-.video{
-    width: 40%;
-
-}
 div#menu a:hover{
     text-decoration: underline;
 }
