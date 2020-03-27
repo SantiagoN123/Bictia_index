@@ -25,7 +25,7 @@ div#menu{
     font-size: 1.5em;
     max-width: 56.25em;
     margin: 0 auto;
-    padding: 60px 30px;
+    padding: 40px 30px;
 }
 div#menu a{
     text-decoration: none;
@@ -77,4 +77,49 @@ div#menu a:active{
 .imagen img{
     width: 100%;
     border-radius: 7px;
+}
+div .seccion2{
+    width: 100%;
+    background-color: rgba(240, 72, 30, 0.281);
+    position: relative;
+    top: 45px;
+    font-size: 20px;
+    padding: 15px;
+    box-sizing: border-box;
+}
+div.seccion2 img{
+    width: 200px;
+    position: absolute;
+    bottom: -110px;
+    right: 35px;
+}
+p.fixed{
+    font-size: 18px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 30px;
+    width: 300px;
+    background-color: #f03e11;
+}
+.ingredientes{
+    height: 600px;
+    height: 450px;
+    overflow: auto;
+}
+.ingredientes h3{
+    padding: 0px 35px 50px 10px;
+    color: #f03e11;
+    font-family: cursive;
+    font-weight: normal;
+    font-size: 28px;
+    text-align: center;
+}
+.ingredientes p{
+    font-size: 20px;
+    white-space: pre-wrap;
+}
+.ingredientes span{
+    color: rgb(24, 168, 24);
+    font-weight: 600;
 }
