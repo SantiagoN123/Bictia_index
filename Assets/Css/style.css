@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+    background: url(../Images/fondo1.jpg);
+    color: whitesmoke;
+    font-size: 16px;
+    font-style: normal;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+/* .parrafo1{
+    color: aqua;
+}
+.parrafo2{
+    color: coral;
+} */
+
+div#menu{
+    background-color: #5e1904;
+    width: 60%;
+    font-size: 1.5em;
+    max-width: 56.25em;
+    margin: 0 auto;
+    padding: 60px 30px;
+}
+div#menu a{
+    text-decoration: none;
+    color: rgb(253, 229, 125);
+    padding: 25px;
+}
+div#menu a:link{
+    color: white;
+}
+div#menu a:visited{
+    color: rgb(253, 229, 125);
+}
+.video{
+    width: 40%;
+
+}
+div#menu a:hover{
+    text-decoration: underline;
+}
+div#menu a:active{
+    color:white;
+}
+.contenedor{
+    position: static;
+    background: rgba(252, 250, 116, 0.5);
+    width: 60%;
+    max-width: 56.25em;
+    margin: 0 auto;
+    padding: 30px;
+    text-align: justify;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    justify-content: center;
+}
+.contenedor h1{
+    padding: 107px 35px 70px 10px;
+    color: #f03e11;
+    font-family: cursive;
+    font-size: 32px;
+    font-weight: normal;
+}
+.tituloImagen{
+    display: inline-flex;
+    width: 100%;
+}
+.imagen{
+    width: 80%;
+}
+.imagen img{
+    width: 100%;
+    border-radius: 7px;
+}
