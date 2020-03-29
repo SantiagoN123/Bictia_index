@@ -113,7 +113,7 @@ p.fixed{
 }
 .ingredientes p{
     font-size: 20px;
-    white-space: pre-wrap;
+     white-space: pre-wrap;
 }
 .ingredientes span{
     color: rgb(24, 168, 24);
