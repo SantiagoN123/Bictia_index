@@ -119,3 +119,25 @@ p.fixed{
     color: rgb(24, 168, 24);
     font-weight: 600;
 }
+.indicaciones caption,tr, td{
+    border: 2px solid black;
+    padding: 30px;
+}
+table{
+    border-collapse: collapse;
+    width: 800px;
+    height: 350px;
+    font-family: cursive;
+    background-color: rgb(253, 229, 125);
+}
+table span{
+    background-color: salmon;
+    border-radius: 10px;
+}
+caption{
+    text-align: center;
+    color: salmon;
+}
+td{
+    vertical-align: top;
+}
