@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+    font-size: 16px;
+    background-image: url(../Images/Fondo.jpg);
+    color: #FFB234;
+    font-style: normal;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+div#menu{
+    background-color: #FF7300;
+    border: #FF7300 1px solid;
+    position: fixed;
+    width: 100%;
+    margin: 0 auto;
+    padding: 40px 30px;
+}
+a{  
+    text-decoration: none;
+    /* border: #FF7300 1px solid; */
+    color: rgb(253, 229, 125);
+}
+div#menu a{
+    background-color: #FF7300;
+    padding: 40px 83px;
+}
+a:link{
+    color: white;
+}
+a:visited{
+    color: rgb(253, 229, 125);
+}
+a:hover{
+    text-decoration: underline;
+}
+a:active{
+    color:white;
+}
+div.start ul{
+    list-style-type: circle;
+}
+.start{
+    position: static;
+    background: rgba(253, 120, 12, 0.219);
+    width: 60%;
+    max-width: 56.25em;
+    margin: 0 auto;
+    padding: 100px;
+    text-align: justify;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    justify-content: center;
+}
+div.start button{
+    height: 35px;
+    width: 16%;
+    margin-top: 6%; 
+
+    border: none;
+    background-color: #FF7300;
+    color: white;
+    position: absolute;
+    right:31%; top:320px;
+
+}
+div.start h1{
+    margin-top: 15%;
+    color: #fde50bc2;
+    font-size: 30px;
+    width: 55%;
+    padding: 80px 60px;
+    height: 20%;
+}
+div.start button, h1{
+
+    text-align: center;
+    font-weight: normal;
+    border: rgba(255, 115, 0, 0.493) 10px solid;
+    font-family: cursive;
+}
+div.start .tituloImagen{
+    display: inline-flex;
+    width: 100%;
+}
+.imagen1{
+    margin-top: auto;
+}
+.imagen1 img{
+    margin-top: auto;
+    width: 80%;
+    border-radius: 7px;
+    padding: 50px;
+}
+.imagen1 video{
+    display: none;
+}
+div.start button[type='button']:checked ~ video{
+    opacity: 1;
+}
